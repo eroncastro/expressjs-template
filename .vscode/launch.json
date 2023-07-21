@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "name": "http://debugger;",
+      "port": 9229,
+      "request": "attach",
+      "type": "node",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

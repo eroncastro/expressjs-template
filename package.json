@@ -1,0 +1,47 @@
+{
+  "name": "planning-poker-be",
+  "version": "0.0.1",
+  "description": "Planning Poker Backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eroncastro/free-planning-poker-be.git"
+  },
+  "keywords": [
+    "Planning",
+    "Poker",
+    "Agile"
+  ],
+  "author": "Eron Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eroncastro/free-planning-poker-be/issues"
+  },
+  "homepage": "https://github.com/eroncastro/free-planning-poker-be#readme",
+  "volta": {
+    "node": "18.17.0",
+    "npm": "9.8.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pino-http": "^8.3.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.4.2",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "jest": "^29.6.1",
+    "prettier": "3.0.0",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}
